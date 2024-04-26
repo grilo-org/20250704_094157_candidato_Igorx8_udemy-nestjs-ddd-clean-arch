@@ -1,6 +1,6 @@
 # compiled output
 /dist
-/build  
+/build
 /node_modules
 .docker/*
 
@@ -12,6 +12,9 @@ pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+
+.env.development
+.env.test
 
 # OS
 .DS_Store
